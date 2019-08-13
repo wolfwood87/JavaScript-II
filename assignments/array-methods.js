@@ -108,3 +108,8 @@ console.log(emails);
 
 
 // Problem 3
+//We've gotten greedy. Remove runners with donations less than $100.
+let richRunners = runners.filter((name) => {
+    return name.donation >= 100;
+})
+console.log(richRunners);
